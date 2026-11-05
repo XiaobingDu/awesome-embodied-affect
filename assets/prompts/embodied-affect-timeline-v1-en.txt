@@ -1,0 +1,43 @@
+Use case: infographic-diagram. Create an original publication-quality landscape evolution infographic for a survey README, closely following the user's Vid-LLMs reference composition: crisp white background, thin sweeping blue S-shaped temporal spine rising from lower left to upper right, clean pale pastel paper chips, neat branches attaching chronological research clusters, generous whitespace and professional bold sans-serif typography. NOT an organic tree, not a box-and-arrow system diagram. The reference is stylistic guidance, not an edit target. Text must be all ENGLISH with exact Latin names; do not include Chinese. Highest available native landscape resolution, 3:2.
+Title: "Evolution of Embodied Affect"
+Subtitle: "Human bodily affect · Robot expression · Situated embodied expression"
+The S-curve is a chronological organizing spine, NOT a graph of performance or scientific maturity. Add legible footer: "Selected milestones · Non-linear time spacing · Curve is not a performance or maturity score". Use explicit time gaps/break symbols between early decades and modern period.
+Legend of paper chip colors: soft rose "Human & theoretical foundations"; soft teal "Robot expression & controllable motion"; pale gold "Situated embodied expression"; pale gray "AI / LLM context". The three research families overlap and continue in parallel. Do NOT show robot work being replaced by embodied work, or LLMs as the necessary cause of all newer methods. Small generic university pictograms or institution initials beside chips; no fabricated institutional logos, crests or false rankings. Use compact year+paper aliases+verified institution, no dense author lists.
+Place the following clusters in correct chronological order along the curve:
+EARLY FOUNDATIONS, lower left, with years explicit:
+"1973 · Johansson [H001]" / "Uppsala · Biological motion"
+"1980 · Russell [H002]" / "UBC · Affect circumplex"
+"1989 · de Meijer [H003]" / "Tilburg · Body motion & emotion"
+"1997 · Affective Computing [H014]" / "MIT · Rosalind Picard"
+"2000 · Kismet [H005]" / "MIT · Sociable machines"
+"2004 · de Gelder [H004]" / "Whole-body affect perception"
+For Kismet 2000 denotes the dated MIT thesis, not invention date.
+MIDDLE EXPRESSION / REPRESENTATION clusters:
+"2015 · Shimi [H006]" / "Georgia Tech × IDC"
+"2019 · Task-Constrained Laban [H007]" / "Expressive motion under constraints"
+"2020 · MoveAE [H008]" / "Cornell × Honda"
+"2020 · Target VA-CVAE [H009]" / "Targeted affect generation"
+"2022 · Functional Expressive Motion [H010]" / "UC Berkeley · Task + expression"
+RECENT LLM INTERFACES, center/right:
+"2023 · Alter3 [W003]" / "Tokyo × Alternative Machine" / small "first public 2023; journal 2025"
+"2024 · GenEM [W001]" / "DeepMind × Hoku"
+"2024 · EMOTION [W002]" / "Apple" / small "first public 2024; RA-L 2025"
+"2024 · Face2Gesture [W012]" / "Cornell / CMU collaboration"
+2025 cluster, with teal robot lane continuing alongside golden LLM interfaces:
+"2025 · Laban Shape [W039]" / "CU Boulder · Interpretable motion"
+"2025 · Honda Emotion Flow [W041]" / "Honda Europe · Emotion-conditioned flow"
+"2025 · HAPI [W013]" / "RIKEN / Kyoto / NII · Human preference"
+2026 upper-right core group, generously spaced; enlarge PAMoR as review anchor without crown or rank:
+"2026 · PAMoR [W009]" / "UCL · Continuous kinematic VA + action" / "Real-time whole-body generation"
+"2026 · SocialHumanoid [W010]" / "SJTU × ZTE · Emotion-conditioned co-speech"
+"2026 · Beyond Kinematic Tracking [W076]" / "UCL · Preserve expressive motion features"
+"2026 · RoboMMT [W034]" / "Stuttgart SIR · Modulated motion tracking"
+Mark ALL FOUR of these 2026 works with a small exact label "preprint", not accepted papers. PAMoR is continuously specified kinematic VA proxy, not proven psychological truth. No claim of complete emotional feedback learning.
+Add THREE small analytic bridge labels away from chips: "Perception & affect representations"; "Parameters, latent spaces & task constraints"; "Language interfaces, conditional generation & physical realization".
+Bottom slim gray context strip, separate from research curve, exactly:
+"AI / LLM CONTEXT"
+"2017 Transformer [H011] · 2020 DDPM [H012] · 2022 ChatGPT · 2023 GPT-4 [H013]"
+small note "Context, not a required dependency for every method"
+Affective motion diffusion / flow / control must not be labeled all LLM-driven.
+Other footer: "W IDs match the survey catalog; H IDs identify historical foundations. Publication dates and evidence limits: README."
+No fake citations, no additional papers, no numeric maturity scores, no top-lab ranking, no quantitative y-axis. Keep visual resemblance to the user's Vid-LLM model timeline with sophisticated readable chips and rising chronological curve, but content is embodied affect.

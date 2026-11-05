@@ -1,0 +1,719 @@
+{
+  "version": "0.1",
+  "date": "2026-11-05",
+  "scope": "25个精选文献/方法背景节点；已有W编号不变，H为新增历史/背景。不是系统性历史穷尽或首创排行榜。",
+  "time_axis_policy": "按已核首公开日期与正式发表日期分别标注；古典历史可断轴压缩，明确非线性；同一研究线的预印/正式/扩展不重复计为独立突破。",
+  "lanes": {
+    "人体": "人体运动知觉、情感表征与心理/神经基础。",
+    "robot": "机器人表达能力、参数化、学习、任务和人类校准研究；并不表示没有智能或不具身。",
+    "embodied": "近期将条件生成、语义接口和物理执行结合的具身表达系统；与robot研究线有交叠，不是取代关系。",
+    "AI-context": "并行方法背景；不是全体具身情感方法的必要依赖。"
+  },
+  "recommended_visual_ids": [
+    "H001",
+    "H002",
+    "H003",
+    "H014",
+    "H005",
+    "H006",
+    "H008",
+    "H009",
+    "H010",
+    "H011",
+    "H013",
+    "W001",
+    "W002",
+    "W009",
+    "W010"
+  ],
+  "milestones": [
+    {
+      "id": "H001",
+      "year": 1973,
+      "year_basis": "formal_or_dated_document",
+      "lane": "人体",
+      "title": "Visual perception of biological motion and a model for its analysis",
+      "alias": "Johansson 点光运动",
+      "institution": "Uppsala University — Gunnar Johansson",
+      "source_url": "https://link.springer.com/article/10.3758/BF03212378",
+      "source_urls": [
+        "https://link.springer.com/article/10.3758/BF03212378"
+      ],
+      "caption": "点光运动：从稀疏关节点读出身体运动",
+      "first_public": {
+        "date": null,
+        "note": "更早公开稿或最早网页上线日期未核；不以零值推断不存在"
+      },
+      "formal": {
+        "date": "1973-06",
+        "venue": "Perception & Psychophysics 14, 201–211",
+        "status": "verified"
+      },
+      "notes": "身体运动知觉的基础；此文不是机器人情感生成或直接情绪识别论文。某些PDF的OCR把1973误作1975，年份依出版社。",
+      "verification_date": "2026-11-05",
+      "verification_scope": "原始论文、出版页、作者/机构页面的时间与内容定向核验；不等于完整复现"
+    },
+    {
+      "id": "H002",
+      "year": 1980,
+      "year_basis": "formal_or_dated_document",
+      "lane": "人体",
+      "title": "A Circumplex Model of Affect",
+      "alias": "Russell 情感环形模型",
+      "institution": "University of British Columbia — James A. Russell",
+      "source_url": "https://pdodds.w3.uvm.edu/research/papers/others/1980/russell1980a.pdf",
+      "source_urls": [
+        "https://pdodds.w3.uvm.edu/research/papers/others/1980/russell1980a.pdf",
+        "https://doi.org/10.1037/h0077714"
+      ],
+      "caption": "情感环形模型：愉悦度与唤醒度的理论基础",
+      "first_public": {
+        "date": null,
+        "note": "更早公开稿或最早网页上线日期未核；不以零值推断不存在"
+      },
+      "formal": {
+        "date": "1980",
+        "venue": "Journal of Personality and Social Psychology 39(6), 1161–1178",
+        "status": "verified"
+      },
+      "notes": "理论与自报证据；不能直接证明机器人运动学VA等于人的感知VA。APA原站本轮访问受限，采用大学托管原论文。",
+      "verification_date": "2026-11-05",
+      "verification_scope": "原始论文、出版页、作者/机构页面的时间与内容定向核验；不等于完整复现"
+    },
+    {
+      "id": "H003",
+      "year": 1989,
+      "year_basis": "formal_or_dated_document",
+      "lane": "人体",
+      "title": "The contribution of general features of body movement to the attribution of emotions",
+      "alias": "de Meijer 身体情感归因",
+      "institution": "Tilburg University — Marco de Meijer",
+      "source_url": "https://link.springer.com/article/10.1007/BF00990296",
+      "source_urls": [
+        "https://link.springer.com/article/10.1007/BF00990296"
+      ],
+      "caption": "身体运动特征与人的情感归因",
+      "first_public": {
+        "date": null,
+        "note": "更早公开稿或最早网页上线日期未核；不以零值推断不存在"
+      },
+      "formal": {
+        "date": "1989-12",
+        "venue": "Journal of Nonverbal Behavior 13, 247–268",
+        "status": "verified"
+      },
+      "notes": "人体录像与人类判断；不是机器人动作生成。",
+      "verification_date": "2026-11-05",
+      "verification_scope": "原始论文、出版页、作者/机构页面的时间与内容定向核验；不等于完整复现"
+    },
+    {
+      "id": "H014",
+      "year": 1997,
+      "year_basis": "formal_or_dated_document",
+      "lane": "AI-context",
+      "title": "Affective Computing",
+      "alias": "Picard《情感计算》",
+      "institution": "MIT Media Lab — Rosalind W. Picard",
+      "source_url": "https://mitpress.mit.edu/9780262161701/affective-computing/",
+      "source_urls": [
+        "https://mitpress.mit.edu/9780262161701/affective-computing/",
+        "https://www.media.mit.edu/groups/affective-computing/publications-list/"
+      ],
+      "caption": "情感计算：感知、理解与回应情感的研究背景",
+      "first_public": {
+        "date": null,
+        "note": "1997为著作出版节点，不声称概念首次出现；此前有1995同名技术报告研究线"
+      },
+      "formal": {
+        "date": "1997-09-24",
+        "venue": "MIT Press, hardcover ISBN 9780262161701",
+        "status": "verified"
+      },
+      "notes": "出版社确认精装1997-09-24；平装2000不是首次出版年。此节点是学科方法背景，不是实体机器人情感动作验证。",
+      "verification_date": "2026-11-05",
+      "verification_scope": "出版社与作者所在机构发表清单核验"
+    },
+    {
+      "id": "H005",
+      "year": 2000,
+      "year_basis": "formal_or_dated_document",
+      "lane": "robot",
+      "title": "Sociable Machines: Expressive Social Exchange Between Humans and Robots",
+      "alias": "Kismet",
+      "institution": "MIT — Cynthia L. Breazeal",
+      "source_url": "https://groups.csail.mit.edu/lbr/hrg/2000/phd.pdf",
+      "source_urls": [
+        "https://groups.csail.mit.edu/lbr/hrg/2000/phd.pdf",
+        "https://journals.sagepub.com/doi/10.1177/0278364902021010096",
+        "https://robots.media.mit.edu/wp-content/uploads/sites/7/2015/01/Breazeal-IJHCS-03.pdf"
+      ],
+      "caption": "Kismet：感知、内部状态与社会表达调节互动",
+      "first_public": {
+        "date": null,
+        "note": "更早公开稿或最早网页上线日期未核；不以零值推断不存在"
+      },
+      "formal": {
+        "date": "2000-05",
+        "venue": "MIT Doctor of Science thesis",
+        "status": "verified"
+      },
+      "notes": "2000为已核学位论文日期，不是Kismet研究首次开始年；2002 IJRR与2003 IJHCS为后续正式论文，不重复算系统突破。",
+      "verification_date": "2026-11-05",
+      "verification_scope": "原始论文、出版页、作者/机构页面的时间与内容定向核验；不等于完整复现"
+    },
+    {
+      "id": "H004",
+      "year": 2004,
+      "year_basis": "first_verified_public",
+      "lane": "人体",
+      "title": "Fear fosters flight: A mechanism for fear contagion when perceiving emotion expressed by a whole body",
+      "alias": "de Gelder 身体情感知觉",
+      "institution": "MGH / Harvard Medical School × Tilburg University — Beatrice de Gelder 等",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC528902/",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC528902/"
+      ],
+      "caption": "身体情感知觉的神经机制支撑",
+      "first_public": {
+        "date": "2004-11-16",
+        "note": "已核的公开稿日期；不声称排除更早演示或未收录稿"
+      },
+      "formal": {
+        "date": "2004-11-23",
+        "venue": "PNAS 101(47), 16701–16706",
+        "status": "verified"
+      },
+      "notes": "脸部遮挡的身体表达图像与fMRI；不能称动态全身动作生成研究。",
+      "verification_date": "2026-11-05",
+      "verification_scope": "原始论文、出版页、作者/机构页面的时间与内容定向核验；不等于完整复现"
+    },
+    {
+      "id": "H006",
+      "year": 2015,
+      "year_basis": "first_verified_public",
+      "lane": "robot",
+      "title": "Emotionally expressive dynamic physical behaviors in robots",
+      "alias": "Shimi",
+      "institution": "Georgia Institute of Technology × IDC Herzliya — Mason Bretan / Guy Hoffman / Gil Weinberg",
+      "source_url": "https://hrc2.io/assets/pdfs/papers/BretanetalIJHCS15.pdf",
+      "source_urls": [
+        "https://hrc2.io/assets/pdfs/papers/BretanetalIJHCS15.pdf"
+      ],
+      "caption": "Shimi：参数化身体表达接入语言情感分析",
+      "first_public": {
+        "date": "2015-02-04",
+        "note": "已核的公开稿日期；不声称排除更早演示或未收录稿"
+      },
+      "formal": {
+        "date": "2015",
+        "venue": "International Journal of Human-Computer Studies",
+        "status": "verified"
+      },
+      "notes": "原论文首页标Available online 4 February 2015；不是2013投稿年，也不等于长期在线策略学习。",
+      "verification_date": "2026-11-05",
+      "verification_scope": "原始论文、出版页、作者/机构页面的时间与内容定向核验；不等于完整复现"
+    },
+    {
+      "id": "H011",
+      "year": 2017,
+      "year_basis": "first_verified_public",
+      "lane": "AI-context",
+      "title": "Attention Is All You Need",
+      "alias": "Transformer",
+      "institution": "Google Brain / Google Research / University of Toronto 作者合作",
+      "source_url": "https://arxiv.org/abs/1706.03762",
+      "source_urls": [
+        "https://arxiv.org/abs/1706.03762",
+        "https://proceedings.neurips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html",
+        "https://arxiv.org/pdf/1706.03762"
+      ],
+      "caption": "Transformer：序列建模的方法背景",
+      "first_public": {
+        "date": "2017-06-12",
+        "note": "已核的公开稿日期；不声称排除更早演示或未收录稿"
+      },
+      "formal": {
+        "date": "2017",
+        "venue": "NeurIPS 2017",
+        "status": "verified"
+      },
+      "notes": "AI方法背景，不是具身情感里程碑，不用箭头暗示必然直接催生每一篇情感生成论文。",
+      "verification_date": "2026-11-05",
+      "verification_scope": "原始论文、出版页、作者/机构页面的时间与内容定向核验；不等于完整复现"
+    },
+    {
+      "id": "H007",
+      "year": 2019,
+      "year_basis": "formal_or_dated_document",
+      "lane": "robot",
+      "title": "Laban-Inspired Task-Constrained Variable Motion Generation on Expressive Aerial Robots",
+      "alias": "Task-Constrained Laban",
+      "institution": "University of Illinois at Urbana-Champaign × independent dance / Laban/Bartenieff Institute / McGuffey Art Center — Hang Cui / Catherine Maguire / Amy LaViers",
+      "source_url": "https://archive.the-rad-lab.org/laban-inspired-task-constrained-expressive-variable-motion-generation-on-aerial-robots",
+      "source_urls": [
+        "https://archive.the-rad-lab.org/laban-inspired-task-constrained-expressive-variable-motion-generation-on-aerial-robots",
+        "https://doi.org/10.3390/robotics8020024",
+        "https://experts.illinois.edu/en/publications/laban-inspired-task-constrained-variable-motion-generation-on-exp",
+        "https://pdfs.semanticscholar.org/c041/5780cd983df77654f2a2abf09944752f3b35.pdf"
+      ],
+      "caption": "任务约束下的Laban运动变化",
+      "first_public": {
+        "date": null,
+        "note": "更早公开稿或最早网页上线日期未核；不以零值推断不存在"
+      },
+      "formal": {
+        "date": "2019-03-27",
+        "venue": "Robotics 8(2), 24",
+        "status": "verified"
+      },
+      "notes": "原论文首页确认2019-03-27；Hang Cui与Amy LaViers署UIUC，Catherine Maguire署独立舞者/LIMS/McGuffey。主要仿真，不升级为实体情感闭环。MDPI直连访问受限，已查看原论文镜像与作者机构记录。",
+      "verification_date": "2026-11-05",
+      "verification_scope": "原始论文、出版页、作者/机构页面的时间与内容定向核验；不等于完整复现"
+    },
+    {
+      "id": "H008",
+      "year": 2020,
+      "year_basis": "formal_or_dated_document",
+      "lane": "robot",
+      "title": "MoveAE: Modifying Affective Robot Movements Using Classifying Variational Autoencoders",
+      "alias": "MoveAE",
+      "institution": "Cornell University × Honda Research Institute Japan — Michael Suguitan / Randy Gomez / Guy Hoffman",
+      "source_url": "https://msgtn.io/assets/pdf/hri20-moveae.pdf",
+      "source_urls": [
+        "https://msgtn.io/assets/pdf/hri20-moveae.pdf",
+        "https://doi.org/10.1145/3319502.3374807"
+      ],
+      "caption": "VAE潜空间编辑机器人的情感动作",
+      "first_public": {
+        "date": null,
+        "note": "更早公开稿或最早网页上线日期未核；不以零值推断不存在"
+      },
+      "formal": {
+        "date": "2020-03",
+        "venue": "HRI 2020, March 23–26",
+        "status": "verified"
+      },
+      "notes": "会议年月由原论文首页确认；不是2020以前无数据驱动情感运动的首创断言。",
+      "verification_date": "2026-11-05",
+      "verification_scope": "原始论文、出版页、作者/机构页面的时间与内容定向核验；不等于完整复现"
+    },
+    {
+      "id": "H009",
+      "year": 2020,
+      "year_basis": "formal_or_dated_document",
+      "lane": "robot",
+      "title": "Generating Robotic Emotional Body Language of Targeted Valence and Arousal with Conditional Variational Autoencoders",
+      "alias": "Target VA-CVAE",
+      "institution": "SFU ROSIE Lab 合作研究线 — Mina Marmpena / Fernando Garcia / Angelica Lim",
+      "source_url": "https://www.rosielab.ca/projects",
+      "source_urls": [
+        "https://www.rosielab.ca/projects",
+        "https://doi.org/10.1145/3371382.3378360",
+        "https://arxiv.org/abs/2205.00763"
+      ],
+      "caption": "目标VA参与CVAE身体语言生成",
+      "first_public": {
+        "date": null,
+        "note": "更早公开稿或最早网页上线日期未核；不以零值推断不存在"
+      },
+      "formal": {
+        "date": "2020",
+        "venue": "HRI 2020 Companion / Late-Breaking Reports",
+        "status": "verified"
+      },
+      "notes": "2020年份和作者由实验室原始发表清单确认，完整当年机构待原稿首页补核；2022-05-02扩展预印本为同研究线，不作为2024新系统；2022版本机构不同。",
+      "verification_date": "2026-11-05",
+      "verification_scope": "原始论文、出版页、作者/机构页面的时间与内容定向核验；不等于完整复现"
+    },
+    {
+      "id": "H012",
+      "year": 2020,
+      "year_basis": "first_verified_public",
+      "lane": "AI-context",
+      "title": "Denoising Diffusion Probabilistic Models",
+      "alias": "DDPM",
+      "institution": "University of California, Berkeley — Jonathan Ho / Ajay Jain / Pieter Abbeel",
+      "source_url": "https://arxiv.org/abs/2006.11239",
+      "source_urls": [
+        "https://arxiv.org/abs/2006.11239",
+        "https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html",
+        "https://arxiv.org/pdf/2006.11239"
+      ],
+      "caption": "扩散生成模型：一条独立的方法研究线",
+      "first_public": {
+        "date": "2020-06-19",
+        "note": "已核的公开稿日期；不声称排除更早演示或未收录稿"
+      },
+      "formal": {
+        "date": "2020",
+        "venue": "NeurIPS 2020",
+        "status": "verified"
+      },
+      "notes": "图像生成方法背景；扩散模型不以LLM为必要组成，情感动作生成也不都采用扩散。",
+      "verification_date": "2026-11-05",
+      "verification_scope": "原始论文、出版页、作者/机构页面的时间与内容定向核验；不等于完整复现"
+    },
+    {
+      "id": "H010",
+      "year": 2022,
+      "year_basis": "first_verified_public",
+      "lane": "robot",
+      "title": "Teaching Robots to Span the Space of Functional Expressive Motion",
+      "alias": "Functional Expressive Motion",
+      "institution": "University of California, Berkeley — Arjun Sripathy / Andreea Bobu / Zhongyu Li / Koushil Sreenath / Daniel S. Brown / Anca D. Dragan",
+      "source_url": "https://arxiv.org/abs/2203.02091",
+      "source_urls": [
+        "https://arxiv.org/abs/2203.02091",
+        "https://www2.eecs.berkeley.edu/Pubs/TechRpts/2022/EECS-2022-45.html",
+        "https://www.mit.edu/~abobu/assets/pdf/cassie/sripathy2022IROS.pdf",
+        "https://doi.org/10.1109/IROS47612.2022.9981964"
+      ],
+      "caption": "学习人的VAD感知，并联合优化任务与表达",
+      "first_public": {
+        "date": "2022-03-04",
+        "note": "已核的公开稿日期；不声称排除更早演示或未收录稿"
+      },
+      "formal": {
+        "date": "2022",
+        "venue": "IROS 2022; UCB/EECS-2022-45 technical report",
+        "status": "verified"
+      },
+      "notes": "原始arXiv确认2022-03-04首稿，2022-05-09为后续机构技术报告；机器人与用户研究均以仿真为基础，不能写实体Cassie情绪闭环。",
+      "verification_date": "2026-11-05",
+      "verification_scope": "原始论文、出版页、作者/机构页面的时间与内容定向核验；不等于完整复现"
+    },
+    {
+      "id": "H013",
+      "year": 2023,
+      "year_basis": "first_verified_public",
+      "lane": "AI-context",
+      "title": "GPT-4 Technical Report",
+      "alias": "GPT-4 技术报告",
+      "institution": "OpenAI",
+      "source_url": "https://arxiv.org/abs/2303.08774",
+      "source_urls": [
+        "https://arxiv.org/abs/2303.08774"
+      ],
+      "caption": "大语言模型：语义理解、编排与代码生成背景",
+      "first_public": {
+        "date": "2023-03-15",
+        "note": "已核的公开稿日期；不声称排除更早演示或未收录稿"
+      },
+      "formal": {
+        "date": null,
+        "venue": null,
+        "status": "not_verified_as_formally_published"
+      },
+      "notes": "标的是技术报告首公开，不是产品发布日期；不是所有动作生成器的前提或必经阶段。",
+      "verification_date": "2026-11-05",
+      "verification_scope": "原始论文、出版页、作者/机构页面的时间与内容定向核验；不等于完整复现"
+    },
+    {
+      "id": "W003",
+      "year": 2023,
+      "year_basis": "first_verified_public",
+      "lane": "embodied",
+      "title": "From text to motion: grounding GPT-4 in a humanoid robot “Alter3”",
+      "alias": "Alter3",
+      "institution": "University of Tokyo × Alternative Machine — Takahide Yoshida / Atsushi Masumori / Takashi Ikegami",
+      "source_url": "https://arxiv.org/abs/2312.06571",
+      "source_urls": [
+        "https://arxiv.org/abs/2312.06571",
+        "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2025.1581110/full"
+      ],
+      "caption": "自然语言经程序接口驱动实体Alter3",
+      "first_public": {
+        "date": "2023-12-11",
+        "note": "已核的公开稿日期；不声称排除更早演示或未收录稿"
+      },
+      "formal": {
+        "date": "2025-05-27",
+        "venue": "Frontiers in Robotics and AI 12:1581110",
+        "status": "verified"
+      },
+      "notes": "图标2023首公开→2025正式；不误作2025首次提出。43轴平台并不等于行走全身连续VA控制。",
+      "verification_date": "2026-11-05",
+      "verification_scope": "原始论文、出版页、作者/机构页面的时间与内容定向核验；不等于完整复现"
+    },
+    {
+      "id": "W001",
+      "year": 2024,
+      "year_basis": "first_verified_public",
+      "lane": "embodied",
+      "title": "Generative Expressive Robot Behaviors using Large Language Models",
+      "alias": "GenEM",
+      "institution": "Google DeepMind × Hoku Labs — Karthik Mahadevan / Leila Takayama 等",
+      "source_url": "https://arxiv.org/abs/2401.14673",
+      "source_urls": [
+        "https://arxiv.org/abs/2401.14673",
+        "https://doi.org/10.1145/3610977.3634999",
+        "https://arxiv.org/pdf/2401.14673"
+      ],
+      "caption": "语言社会意图→参数化控制代码与纠正",
+      "first_public": {
+        "date": "2024-01-26",
+        "note": "已核的公开稿日期；不声称排除更早演示或未收录稿"
+      },
+      "formal": {
+        "date": "2024-03",
+        "venue": "HRI 2024",
+        "status": "verified"
+      },
+      "notes": "原论文首页只署Google DeepMind和Hoku Labs，toronto.edu邮箱不能作为多伦多大学署名证据。有实体表达与用户纠正；不是连续VA生成或自动人情绪反馈学习。",
+      "verification_date": "2026-11-05",
+      "verification_scope": "原始论文、出版页、作者/机构页面的时间与内容定向核验；不等于完整复现"
+    },
+    {
+      "id": "W002",
+      "year": 2024,
+      "year_basis": "first_verified_public",
+      "lane": "embodied",
+      "title": "EMOTION: Expressive Motion Sequence Generation for Humanoid Robots with In-Context Learning",
+      "alias": "EMOTION",
+      "institution": "Apple论文作者群 — Peide Huang / Yuhan Hu 等",
+      "source_url": "https://arxiv.org/abs/2410.23234",
+      "source_urls": [
+        "https://arxiv.org/abs/2410.23234",
+        "https://machinelearning.apple.com/research/emotion-expressive-motion",
+        "https://doi.org/10.1109/LRA.2025.3575983"
+      ],
+      "caption": "LLM上下文学习生成手势序列；反馈修订",
+      "first_public": {
+        "date": "2024-10-30",
+        "note": "已核的公开稿日期；不声称排除更早演示或未收录稿"
+      },
+      "formal": {
+        "date": "2025",
+        "venue": "IEEE Robotics and Automation Letters",
+        "status": "verified"
+      },
+      "notes": "Apple机构页标2025-01，其页面时间不替代期刊精确上线日；RA-L年份沿既有DOI记录，精确上线日未补写。十种手势不等于十种情绪；EMOTION++不等于长期在线个体适应。",
+      "verification_date": "2026-11-05",
+      "verification_scope": "原始论文、出版页、作者/机构页面的时间与内容定向核验；不等于完整复现"
+    },
+    {
+      "id": "W012",
+      "year": 2024,
+      "year_basis": "formal_or_dated_document",
+      "lane": "robot",
+      "title": "Face2Gesture: Translating Facial Expressions into Robot Movements through Shared Latent Space Neural Networks",
+      "alias": "Face2Gesture",
+      "institution": "Cornell / CMU / Plus One Robotics / Independent Researcher；部分作者实施时属Facebook AI Research",
+      "source_url": "https://msgtn.io/assets/pdf/thri-fg.pdf",
+      "source_urls": [
+        "https://msgtn.io/assets/pdf/thri-fg.pdf",
+        "https://doi.org/10.1145/3623386"
+      ],
+      "caption": "共享潜空间：人脸表达映射为机器人动作",
+      "first_public": {
+        "date": null,
+        "note": "更早公开稿或最早网页上线日期未核；不以零值推断不存在"
+      },
+      "formal": {
+        "date": "2024-08",
+        "venue": "ACM Transactions on Human-Robot Interaction 13(3), Article 45",
+        "status": "verified"
+      },
+      "notes": "原论文首页为2024-08；研究时归属与发表时地址区别保留；不能简化成Cornell独立成果。",
+      "verification_date": "2026-11-05",
+      "verification_scope": "原始论文、出版页、作者/机构页面的时间与内容定向核验；不等于完整复现"
+    },
+    {
+      "id": "W013",
+      "year": 2025,
+      "year_basis": "first_verified_public",
+      "lane": "robot",
+      "title": "HAPI: A Model for Learning Robot Facial Expressions from Human Preferences",
+      "alias": "HAPI",
+      "institution": "RIKEN × Kyoto University × NII 合作 — Dongsheng Yang / Wataru Sato 等",
+      "source_url": "https://arxiv.org/abs/2503.17046",
+      "source_urls": [
+        "https://arxiv.org/abs/2503.17046",
+        "https://grp.riken.jp/events/20251120-report/Prof.Nishida.pdf"
+      ],
+      "caption": "成对人类偏好与优化校准实体面部表达",
+      "first_public": {
+        "date": "2025-03-21",
+        "note": "已核的公开稿日期；不声称排除更早演示或未收录稿"
+      },
+      "formal": {
+        "date": "2025-10",
+        "venue": "IROS 2025",
+        "status": "verified"
+      },
+      "notes": "理研托管原作者研究报告确认IROS2025（10月19—25日）；不补写未核页码与精确上线日。35DoF面部而非全身。",
+      "verification_date": "2026-11-05",
+      "verification_scope": "原始论文、出版页、作者/机构页面的时间与内容定向核验；不等于完整复现"
+    },
+    {
+      "id": "W039",
+      "year": 2025,
+      "year_basis": "first_verified_public",
+      "lane": "robot",
+      "title": "Employing Laban Shape for Generating Emotionally and Functionally Expressive Trajectories in Robotic Manipulators",
+      "alias": "Laban Shape",
+      "institution": "University of Colorado Boulder — Srikrishna Bangalore Raghu / Bradley Hayes / Alessandro Roncone 等",
+      "source_url": "https://arxiv.org/abs/2505.11716",
+      "source_urls": [
+        "https://arxiv.org/abs/2505.11716",
+        "https://brsrikrishna.github.io/ROMAN_25/"
+      ],
+      "caption": "Laban Effort＋Shape：机械臂情感与功能表达",
+      "first_public": {
+        "date": "2025-05-16",
+        "note": "已核的公开稿日期；不声称排除更早演示或未收录稿"
+      },
+      "formal": {
+        "date": "2025-08",
+        "venue": "IEEE RO-MAN 2025",
+        "status": "verified"
+      },
+      "notes": "官网确认会议2025-08-25至29；线上人评不能写作真实协作收益。功能性犹豫与情绪类别分别讨论。",
+      "verification_date": "2026-11-05",
+      "verification_scope": "原始论文、出版页、作者/机构页面的时间与内容定向核验；不等于完整复现"
+    },
+    {
+      "id": "W041",
+      "year": 2025,
+      "year_basis": "first_verified_public",
+      "lane": "robot",
+      "title": "Autonomous Generation of Real-time Robotic Emotional Expressions via Human Demonstration in Mixed Reality",
+      "alias": "Honda 情绪条件flow",
+      "institution": "Honda Research Institute Europe — Chao Wang / Michael Gienger / Fan Zhang",
+      "source_url": "https://www.honda-ri.de/publications/publications/?pubid=6361",
+      "source_urls": [
+        "https://www.honda-ri.de/publications/publications/?pubid=6361",
+        "https://arxiv.org/abs/2508.08999"
+      ],
+      "caption": "专家MR示范→情绪条件flow生成",
+      "first_public": {
+        "date": "2025-08-12",
+        "note": "已核的公开稿日期；不声称排除更早演示或未收录稿"
+      },
+      "formal": {
+        "date": "2025",
+        "venue": "IEEE RO-MAN 2025",
+        "status": "verified"
+      },
+      "notes": "预印本标题与机构正式记录不同；正式摘要有人评，旧版本证据不可倒填。MR虚拟机器人不升级实体全身验证。W078为相近研究线判重跟踪。",
+      "verification_date": "2026-11-05",
+      "verification_scope": "原始论文、出版页、作者/机构页面的时间与内容定向核验；不等于完整复现"
+    },
+    {
+      "id": "W009",
+      "year": 2026,
+      "year_basis": "first_verified_public",
+      "lane": "embodied",
+      "title": "PAMoR: Parameterized Affective Motion Generation in Real Time for Humanoid Robots",
+      "alias": "PAMoR",
+      "institution": "University College London — Yan Pan / Lingfan Bao / Tianhu Peng / Chengxu Zhou",
+      "source_url": "https://arxiv.org/abs/2608.28213",
+      "source_urls": [
+        "https://arxiv.org/abs/2608.28213"
+      ],
+      "caption": "机器人原生运动学VA＋动作条件：实时全身生成",
+      "first_public": {
+        "date": "2026-08-28",
+        "note": "已核的公开稿日期；不声称排除更早演示或未收录稿"
+      },
+      "formal": {
+        "date": null,
+        "venue": null,
+        "status": "not_verified_as_formally_published"
+      },
+      "notes": "本轮原始记录仍标RA-L在审，不写已录用。正文有感知研究；没有人的实时情绪反馈学习证据。运动学VA是代理。",
+      "verification_date": "2026-11-05",
+      "verification_scope": "原始论文、出版页、作者/机构页面的时间与内容定向核验；不等于完整复现"
+    },
+    {
+      "id": "W010",
+      "year": 2026,
+      "year_basis": "first_verified_public",
+      "lane": "embodied",
+      "title": "SocialHumanoid: Towards Expressive Humanoid Behavior via One-Step Co-Speech Motion Generation",
+      "alias": "SocialHumanoid",
+      "institution": "Shanghai Jiao Tong University × ZTE — Chengqun Yang / Xiaokang Yang / Yichao Yan 等",
+      "source_url": "https://arxiv.org/abs/2609.33311",
+      "source_urls": [
+        "https://arxiv.org/abs/2609.33311"
+      ],
+      "caption": "情感条件共语生成→在线重定向→全身控制",
+      "first_public": {
+        "date": "2026-09-27",
+        "note": "已核的公开稿日期；不声称排除更早演示或未收录稿"
+      },
+      "formal": {
+        "date": null,
+        "venue": null,
+        "status": "not_verified_as_formally_published"
+      },
+      "notes": "预印本；语音与指定情感条件不同于任意动作文本＋连续VA。长时执行或对话循环不是实时人的情感反馈优化。",
+      "verification_date": "2026-11-05",
+      "verification_scope": "原始论文、出版页、作者/机构页面的时间与内容定向核验；不等于完整复现"
+    },
+    {
+      "id": "W034",
+      "year": 2026,
+      "year_basis": "first_verified_public",
+      "lane": "embodied",
+      "title": "RoboMMT: Learning Stable Tracking of Modulated Expressive and Interactive Robot Motion",
+      "alias": "RoboMMT",
+      "institution": "University of Stuttgart SIR — Till Hielscher / Kai O. Arras",
+      "source_url": "https://arxiv.org/abs/2610.26414",
+      "source_urls": [
+        "https://arxiv.org/abs/2610.26414"
+      ],
+      "caption": "表达调制、稳定跟踪与空间互动耦合",
+      "first_public": {
+        "date": "2026-10-19",
+        "note": "已核的公开稿日期；不声称排除更早演示或未收录稿"
+      },
+      "formal": {
+        "date": null,
+        "venue": null,
+        "status": "not_verified_as_formally_published"
+      },
+      "notes": "预印本；实体证据为四足，人形主要仿真。稳定跟踪不等于人的情感理解验证。",
+      "verification_date": "2026-11-05",
+      "verification_scope": "原始论文、出版页、作者/机构页面的时间与内容定向核验；不等于完整复现"
+    },
+    {
+      "id": "W076",
+      "year": 2026,
+      "year_basis": "first_verified_public",
+      "lane": "embodied",
+      "title": "Beyond Kinematic Tracking: Preserving Expressive Characteristics in Humanoid Whole-Body Control",
+      "alias": "Beyond Kinematic Tracking",
+      "institution": "University College London 合作 — Lingfan Bao / Chengxu Zhou 等",
+      "source_url": "https://arxiv.org/abs/2610.19393",
+      "source_urls": [
+        "https://arxiv.org/abs/2610.19393"
+      ],
+      "caption": "物理执行中补偿动态与姿态表达特征",
+      "first_public": {
+        "date": "2026-10-14",
+        "note": "已核的公开稿日期；不声称排除更早演示或未收录稿"
+      },
+      "formal": {
+        "date": null,
+        "venue": null,
+        "status": "not_verified_as_formally_published"
+      },
+      "notes": "预印本；特征保持与人对情感意义的保持不是同一验证。",
+      "verification_date": "2026-11-05",
+      "verification_scope": "原始论文、出版页、作者/机构页面的时间与内容定向核验；不等于完整复现"
+    }
+  ],
+  "count": 25,
+  "supplementary_background": [
+    {
+      "label": "ChatGPT",
+      "year": 2022,
+      "date": "2022-11-30",
+      "lane": "AI-context",
+      "institution": "OpenAI",
+      "source_url": "https://openai.com/index/chatgpt/",
+      "note": "生成时间图中的补充背景标签，不属于25个核心/历史文献节点；产品/研究预览发布而非同行评议机器人论文。"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "version": "1.0",
+  "date": "2026-11-05",
+  "scope": "三项邻近人体／数字人资源；独立R编号，不增加或复用W001–W080",
+  "records": [
+    {
+      "id": "R001",
+      "alias": "BEAT",
+      "title": "BEAT: A Large-Scale Semantic and Emotional Multi-Modal Dataset for Conversational Gestures Synthesis",
+      "venue": "ECCV 2022",
+      "publication_date": {
+        "value": "2022",
+        "precision": "year",
+        "basis": "ECCV正式论文；本轮未核出版社online月日"
+      },
+      "first_public_date": {
+        "value": "2022-03-10",
+        "precision": "day",
+        "basis": "arXiv v1"
+      },
+      "publication_status": "ECCV 2022正式论文；不是CVPR 2022",
+      "teams": [
+        "The University of Tokyo",
+        "Keio University",
+        "Huawei Digital Human Lab／Huawei Turkey R&D",
+        "Japan Advanced Institute of Science and Technology"
+      ],
+      "scholars": [
+        "Haiyang Liu",
+        "Zihao Zhu",
+        "Naoya Iwamoto",
+        "Yichen Peng",
+        "Zhengqing Li",
+        "You Zhou",
+        "Elif Bozkurt",
+        "Bo Zheng"
+      ],
+      "paper_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136670605.pdf",
+      "preprint_url": "https://arxiv.org/abs/2203.05297",
+      "code_url": "https://github.com/beat2022dataset/beat",
+      "historical_code_url": "https://github.com/PantoMatrix/BEAT",
+      "current_family_code_url": "https://github.com/haiyangliu0/character-policy",
+      "code_status": "已核官方PantoMatrix/BEAT README链接的原匿名提交代码，包含CaMN训练／推理和预处理；历史入口顶层现主要为README与docs；新整合库另列，未运行复现",
+      "project_url": "https://pantomatrix.github.io/BEAT/",
+      "project_status": "作者项目页可访问；数据下载按原项目说明与许可",
+      "resource_type": "人体情感共语数据集与CaMN基线",
+      "stage_tags": [
+        "foundation",
+        "3A",
+        "4"
+      ],
+      "summary": {
+        "problem": "缺少同步语音、身体、表情与情绪／语义标注的共语数据。",
+        "method": "动作捕捉配合面部blendshape、音频、文本及情绪／语义标注，并提供级联运动网络CaMN。",
+        "innovation": "将多模态数据与情感和语义关联用于人体手势研究。",
+        "result": "正式论文报告76小时、30位说话者、八类情绪及四种语言；提供数据与基线入口。",
+        "limitations": "人体数据与生成基线，不代表机器人实体执行；版本与子集须注明，不能把各版时长和语言分布混用。"
+      },
+      "verification_urls": [
+        "https://arxiv.org/abs/2203.05297",
+        "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136670605.pdf",
+        "https://pantomatrix.github.io/BEAT/",
+        "https://github.com/PantoMatrix/BEAT",
+        "https://github.com/beat2022dataset/beat",
+        "https://github.com/haiyangliu0/character-policy"
+      ],
+      "verification_status": "本轮核作者项目、ECCV原论文／arXiv及官方代码链，未复现",
+      "verification_date": "2026-11-05"
+    },
+    {
+      "id": "R002",
+      "alias": "EMAGE / BEAT2",
+      "title": "EMAGE: Towards Unified Holistic Co-Speech Gesture Generation via Expressive Masked Audio Gesture Modeling",
+      "venue": "IEEE/CVF CVPR 2024",
+      "publication_date": {
+        "value": "2024",
+        "precision": "year",
+        "basis": "CVPR正式论文；本轮未核出版社online月日"
+      },
+      "first_public_date": {
+        "value": "2023-12-31",
+        "precision": "day",
+        "basis": "arXiv v1，虽编号2401.00374，首发记录为2023-12-31"
+      },
+      "publication_status": "CVPR 2024正式论文；BEAT2随该方法提供，不单独算第二篇论文",
+      "teams": [
+        "The University of Tokyo",
+        "Keio University",
+        "Max Planck Institute for Intelligent Systems",
+        "Japan Advanced Institute of Science and Technology",
+        "Tsinghua University",
+        "其他作者归属以论文对应版本为准"
+      ],
+      "scholars": [
+        "Haiyang Liu",
+        "Zihao Zhu",
+        "Giorgio Becherini",
+        "Yichen Peng",
+        "Mingyang Su",
+        "You Zhou",
+        "Xuefei Zhe",
+        "Naoya Iwamoto",
+        "Bo Zheng",
+        "Michael J. Black"
+      ],
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Liu_EMAGE_Towards_Unified_Holistic_Co-Speech_Gesture_Generation_via_Expressive_Masked_CVPR_2024_paper.pdf",
+      "preprint_url": "https://arxiv.org/abs/2401.00374",
+      "code_url": "https://github.com/haiyangliu0/character-policy",
+      "historical_code_url": "https://github.com/PantoMatrix/PantoMatrix",
+      "official_code_entry_url": "https://github.com/haiyangliu0/character-policy/blob/main/train_emage_audio.py",
+      "code_status": "旧官方仓库地址本轮重定向到character-policy，作者EMAGE项目Code按钮也指向该库的EMAGE训练入口；新整合库不默认等于CVPR原始实验的全部配置，未运行复现",
+      "project_url": "https://pantomatrix.github.io/EMAGE/",
+      "project_status": "作者项目页可访问，列代码、数据与演示入口",
+      "resource_type": "数字人全身共语生成方法与BEAT2身体／面部数据",
+      "stage_tags": [
+        "foundation",
+        "3A"
+      ],
+      "summary": {
+        "problem": "如何统一生成面部、身体、手与全局运动并接受部分运动提示？",
+        "method": "Masked Audio Gesture Transformer联合音频生成与遮罩重建，组合VQ-VAE分别建模身体区域；BEAT2结合SMPL-X与FLAME参数。",
+        "innovation": "全身多区域生成与可见运动提示统一，附标准化身体／脸网格数据。",
+        "result": "论文报告共语生成与可控补全实验，作者公开模型、数据及工具入口。",
+        "limitations": "输出数字人动作参数，不是实体机器人控制；BEAT2不是独立机器人数据集，不能把原版模型与维护后audio-only等变体混为同一设置。"
+      },
+      "verification_urls": [
+        "https://arxiv.org/abs/2401.00374",
+        "https://openaccess.thecvf.com/content/CVPR2024/papers/Liu_EMAGE_Towards_Unified_Holistic_Co-Speech_Gesture_Generation_via_Expressive_Masked_CVPR_2024_paper.pdf",
+        "https://pantomatrix.github.io/EMAGE/",
+        "https://github.com/PantoMatrix/PantoMatrix",
+        "https://github.com/haiyangliu0/character-policy",
+        "https://github.com/haiyangliu0/character-policy/blob/main/train_emage_audio.py"
+      ],
+      "verification_status": "本轮核CVPR论文、arXiv、作者项目与仓库重定向／代码入口；未复现",
+      "verification_date": "2026-11-05"
+    },
+    {
+      "id": "R003",
+      "alias": "EmoDiffGes",
+      "title": "EmoDiffGes: Emotion-Aware Co-Speech Holistic Gesture Generation with Progressive Synergistic Diffusion",
+      "venue": "Computer Graphics Forum 44(7):e70261 / Pacific Graphics 2025",
+      "publication_date": {
+        "value": "2025-10-11",
+        "precision": "day",
+        "basis": "Wiley页面First published"
+      },
+      "first_public_date": null,
+      "publication_status": "正式期刊／PG 2025论文；未确认更早预印首发日",
+      "teams": [
+        "华东师范大学计算机科学与技术学院"
+      ],
+      "scholars": [
+        "Xinru Li",
+        "Jingzhong Lin",
+        "Bohao Zhang",
+        "Yuanyuan Qi",
+        "Changbo Wang",
+        "Gaoqi He"
+      ],
+      "paper_url": "https://doi.org/10.1111/cgf.70261",
+      "code_url": "https://github.com/HellAngel18/EmoDiffGes",
+      "project_url": null,
+      "author_publication_page": "https://ripemangobox.github.io/",
+      "project_status": "已核作者论文展示页与代码仓库；未确认独立项目网站，不猜GitHub Pages链接",
+      "code_status": "已核合作者主页明确链接的公开仓库，包含训练、测试、demo与模型下载说明；未运行或核验全部外部权重可下载",
+      "resource_type": "数字人情感条件共语全身生成方法",
+      "stage_tags": [
+        "foundation",
+        "3A"
+      ],
+      "summary": {
+        "problem": "共语运动忽略情绪时间变化，身体分区建模又易失去协同。",
+        "method": "动态情绪对齐模块DEAM提供情绪引导；渐进协同手势生成器在身体区域先验下迭代细化区域潜码并交换上下文。",
+        "innovation": "结合动态情绪条件和分区协同的扩散生成。",
+        "result": "正式论文报告表达性、协调性与情绪相关实验；公开RVQ-VAE和扩散模型的训练／评估入口。",
+        "limitations": "属于人体／数字人运动生成，不能据标题中的embodied emotion theory认定已解决实体机器人驱动、平衡与接触；Inter-Region Synergistic Flow名称不代表它是flow-matching模型。"
+      },
+      "verification_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1111/cgf.70261",
+        "https://diglib.eg.org/items/880901e6-3e61-428f-93cd-34354b9a450d",
+        "https://ripemangobox.github.io/",
+        "https://github.com/HellAngel18/EmoDiffGes",
+        "https://sii.ecnu.edu.cn/e9/be/c52742a780734/page.htm"
+      ],
+      "verification_status": "本轮核Wiley发表日期／署名与摘要、Eurographics记录、作者主页和公开仓库；未复现",
+      "verification_date": "2026-11-05"
+    }
+  ]
+}

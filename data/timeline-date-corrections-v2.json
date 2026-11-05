@@ -1,0 +1,29 @@
+{
+  "version": "timeline-date-corrections-v2",
+  "verification_date": "2026-11-05",
+  "scope": "仅定向补核W020和W027原始预印本首公开日期，不改正式发表日期",
+  "records": [
+    {
+      "id": "W020",
+      "first_public_date": {
+        "value": "2023-12-15",
+        "precision": "day",
+        "basis": "arXiv:2312.09740 v1 submission history；原始预印本首公开"
+      },
+      "verification_urls": [
+        "https://arxiv.org/abs/2312.09740"
+      ]
+    },
+    {
+      "id": "W027",
+      "first_public_date": {
+        "value": "2024-10-24",
+        "precision": "day",
+        "basis": "arXiv:2410.18373 v1 submission history；原始预印本首公开"
+      },
+      "verification_urls": [
+        "https://arxiv.org/abs/2410.18373"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+Use case: precise-object-edit; definitive readable research-tree figure. Edit the referenced research tree, preserving the large beautiful organic tree, five-stage top interaction strip and purple closing arrow 5->1, central girl and humanoid giving blue cube, three foundational roots, orange core branch3 splitA/B. Correct scholarly typography by REDUCING tiny labels. Use ONLY the exact selected paper labels and institutional names supplied below. Do NOT preserve other microtext, inferred affiliations, author translations or extra IDs from the previous raster. Complete catalog is separately saved and linked; this is the readable selected-works figure. All institution labels MUST be LATIN letters as given below, preventing mistranslated affiliations. All Chinese MUST be standard SIMPLIFIED with legible typeset glyphs. Chinese should appear only in supplied headings and short notes. Native highest-resolution landscape 3:2.
+
+Title exactly "具身情感研究全景"
+Subtitle "Awesome Embodied Affect"
+Small subtitle "五阶段闭环 · 六个技术模块"
+Note "精选代表作；全部80项工作与学者见配套索引"
+
+TOP strip: "① 感知" -> "② 理解与决策" -> "③ 生成与表达" -> "④ 人类解读与反馈" -> "⑤ 修正与适应" -> curved return arrow into① labeled "下一轮交互". Each stage friendly person/robot vignette. Ensure these are five stages, third split in main tree only. 3A->3B explicit rightward arrow labeled "参考动作".
+
+Below list EXACT text for each branch, use clean spacious typesetting, don't generate extra text:
+Branch1 heading "① 感知"
+"Macquarie — UGotMe [W027]"
+"HKUST — EmArm [W056]"
+"SeoulTech — FER-to-motion [W072]"
+"线索识别与状态估计"
+Branch2 heading "② 理解与决策"
+"Stuttgart SIR — Context-Aware [W007]"
+"UCL — HIAER [W032]"
+"SJTU — MHE [W053]"
+"Wuhan University — SeM² [W038]"
+"情境理解与回应选择"
+Branch3 large header "③ 生成与表达"; orange emphasis label "第一阶段重点"
+3A heading "③A 情感条件化动作生成".
+Make TOP very large:
+"UCL — PAMoR [W009]"
+"Yan Pan · Chengxu Zhou et al."
+"连续 VA 运动学代理条件"
+"实时全身动作 · 实体 G1"
+Then selected other readable entries:
+"SJTU × ZTE — SocialHumanoid [W010]"
+"Apple — EMOTION [W002]"
+"Honda Europe — Emotion Flow [W041]"
+"HKUST(GZ) × Shandong × RoboScience"
+"EmoPose [W008]"
+Small green and amber notes "已有支持：条件化动作生成" / "待验证：跨任务与人的感知校准"
+3B heading "③B 实体执行与任务约束"
+"UCL — Beyond Kinematic Tracking [W076]"
+"Stuttgart SIR — RoboMMT [W034]"
+"Disney — Operator Imitation [W035]"
+"Osaka / Kobe — EmoLo [W069]"
+Small green/amber notes "已有支持：跟踪与表达特征补偿" / "待验证：执行后的表达意义保持"
+Branch4 heading "④ 人类解读与反馈"
+"Cambridge × Politecnico di Milano — VITA [W020]"
+"Kyoto × Boise State — AffectLoop [W022]"
+"Cambridge — Robot-Led Reappraisal [W028]"
+"Humboldt Berlin — Beyond the monotonic [W030]"
+"BGU / TU Wien — Appropriateness [W075]"
+"理解、适切性与交互效果"
+Branch5 heading "⑤ 修正与适应"
+"DeepMind / Hoku / Toronto — GenEM [W001]"
+"RIKEN / Kyoto / NII — HAPI [W013]"
+"Monash — Proxy optimization [W042]"
+"纠正、偏好优化与适应"
+
+ROOT1 heading "机器人情感表达基础", use readable selected foundation institutions:
+"CU Boulder — Laban Shape [W039]"
+"Cornell / CMU — Face2Gesture [W012]"
+"UNIST — Dynamic expression [W066–W068]"
+"HKUST(GZ) / CAS — MojiKit [W052]"
+"身体、头部与面部表达"
+ROOT2 heading "人体身体语言与表演理论"
+"W047 Robots and Dance"
+"W048 The Body in Affective Robotics"
+"W054 Body expression & eye tracking"
+"W063 Motion arousal perception"
+NO INSTITUTIONS OR AUTHORS for these 4 root2 papers. Do not add RAD, Australia, Penn State to any individual paper.
+ROOT3 heading "数字人与动作数据"
+"BEAT / EMAGE-BEAT2 / EmoDiffGes"
+"数字骨骼与网格动画"
+"实体还需动力学与接触约束"
+Keep laptop motion capture and digital skeleton illustrations.
+
+Central tree plaque "人的状态 → 回应目标 → 生成与执行 → 人类反馈 → 修正与下一轮"
+Bottom slim note "跨环节：多模态同步、不确定性、任务与人类评价"
+Evidence footer "仿真 / 实体 · 录像 / 现场 · 单次 / 多次 · 离线优化 / 在线适应"
+Small final disclaimer "研究闭环不代表每项工作均已完成全链验证"
+A small gray note "证据受限条目与完整书目见配套索引"
+
+No added wording. No additional tiny author lists, no repeated paper labels, no other W IDs. No crown, prestige ranking, or award. This is a curated overview backed by the complete 80-item text catalog, not all 80 titles stuffed into tiny raster. Strong legible black text on pale colored organic foliage. Keep the admired illustrated scholarly style and clear tree silhouette. Proofread all names and W IDs exactly. NO Traditional Chinese, misspellings or fake university translations.
